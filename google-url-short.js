@@ -17,7 +17,7 @@ var googleShort = googleShort || {};
  * @final
  *
  */
-googleShort.API_KEY_GOOGLE = 'AIzaSyD-hiA4JGBYXVkxmhL0pAi9fMpWlk5n-z8';
+googleShort.API_KEY_GOOGLE = 'YOUR API KEY';
 
 /**
  * Retorna el la url lista para obtener información de un enlace corto
