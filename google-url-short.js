@@ -42,6 +42,11 @@ googleShort.get = function(shortUrl, projection) {
  */
 googleShort.insert = function (longUrl) {
 
+  var re = new RegExp("^http");
+
+  if (!re.test(longUrl)) {
+    throw 'Url no valida: Ej http://www.site.com';
+  }
   /**
    * Continene los parametros para enviar
    * @property parametros
